@@ -1,0 +1,1 @@
+ALTER TABLE horario ADD FK_ID_professor INT FOREIGN KeY(IDPROFESSOR) REFERENCES professor(ID);

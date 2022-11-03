@@ -1,0 +1,1 @@
+key(IDHORARIO) REFERENCES horario(ID), FK_IDmatricula INT FOREIGN KEY(IDMatricula) REFERENCES matricula(ID);

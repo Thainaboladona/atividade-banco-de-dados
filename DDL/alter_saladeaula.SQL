@@ -1,0 +1,1 @@
+ALTER TABLE saladeaula ADD FK_ID_saladeaula INT FOREIGN KeY(IDturma) REFERENCES turma(ID);
